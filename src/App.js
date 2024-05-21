@@ -12,7 +12,7 @@ function App() {
           <a
           className="App-link"
           href={e.a} download>
-            {e.title}
+            {e.t}
         </a>
         )}
         
