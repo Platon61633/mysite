@@ -15,6 +15,13 @@ function App() {
             {e.t}
         </a>
         )}
+        <a
+        className="App-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={prezin} download>
+            Скачать презентацию по руссскому
+        </a>
         
       </header>
     </div>
