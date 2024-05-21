@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import prezin from "./assets/file.pptx";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           className="App-link"
           target="_blank"
           rel="noopener noreferrer"
-          href="./assets/file.pptx" download>
+          href={prezin} download>
             Скачать презентацию по руссскому
         </a>
       </header>
