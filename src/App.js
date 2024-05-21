@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 import prezin from "./assets/file.pptx";
 
 function App() {
+
+  const ssylky = [{a:"./assets/file.pptx", t: 'Скачать презентацию по руссскому'}, ]
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        {ssylky.map(e=>
+          <a
           className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href={prezin} download>
-            Скачать презентацию по руссскому
+          href={e.a} download>
+            {e.title}
         </a>
+        )}
+        
       </header>
     </div>
   );
