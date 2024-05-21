@@ -3,7 +3,7 @@ import prezin from "./assets/file.pptx";
 
 function App() {
 
-  const ssylky = [{a:"./assets/file.pptx", t: 'Скачать презентацию по руссскому'}, ]
+  const ssylky = [{a:prezin, t: 'Скачать презентацию по руссскому'}, ]
 
   return (
     <div className="App">
