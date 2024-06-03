@@ -1,9 +1,11 @@
 import './App.css';
 import prezin from "./assets/proekt.pptx";
+import klim from "./assets/klim.pptx";
 
 function App() {
 
-  const ssylky = [{a:prezin, t: 'Скачать презентацию по руссскому'}, ]
+  const ssylky = [{a:prezin, t: 'Скачать презентацию по руссскому'},
+                  {a: klim, t: "klim"}]
 
   return (
     <div className="App">
