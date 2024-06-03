@@ -1,5 +1,5 @@
 import './App.css';
-import prezin from "./assets/file.pptx";
+import prezin from "./assets/proekt.pptx";
 
 function App() {
 
